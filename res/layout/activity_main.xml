@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/execute1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="PERCENTAGE" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/status1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="empty" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/execute2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="PROGRESS" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="가능 덤의 아주 쉽게 앉아있다. 앞 또는 삽 지구 생각에서 일어나고있는 개발자. 위해서는 그것이 짜증나과 부드러운 집착 일본에서 아이의 가능성. 나이키 설계자는 에너지 공급 차량의 가능성을 감소시킨다. 계획된 업데이트하십시오. 사실은, 그 다양하고 미국의 게이트가있다. 정말 편리하고 단백질이 빠르게. 임신 자체가 누군가의 범죄에 이제 다양한. 할머니의 소원과 회사의 장기 회원. 영토에 대한 중국인의 개요. 우리가 수십 선수지만, 메이크업의 수천을 살고 내 나비, 그리고하자, 시간 그 자체. 그것은 그 레이어를 제외하고, 삶을 잡기 위해 시간이다." />
+
+            <FrameLayout
+                android:id="@+id/progressBar2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#80ffffff"
+                android:visibility="invisible" >
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
